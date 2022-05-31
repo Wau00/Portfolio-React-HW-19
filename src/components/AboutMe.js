@@ -2,6 +2,34 @@
 import React from "react";
 import { Card } from "react-bootstrap"
 
+const styles = {
+    card: {
+        margin: 20,
+        background: '#282c34',
+    },
+    heading: {
+        background: '#6c757d',
+        minHeight: 50,
+        lineHeight: 3.5,
+        fontSize: '1.2rem',
+        color: 'white',
+        padding: '0 20px',
+    },
+    content: {
+        padding: 20,
+        color: '#fff'
+    },
+    hero: {
+        width: '30%',
+        height: 'auto',
+        borderRadius: '50% 50% 50%'
+    },
+    h3: {
+        fontSize: '3rem',
+        fontWeight: '300',
+        lineHeight: '1.3'
+    }
+};
 
 function AboutMe() {
     return (
