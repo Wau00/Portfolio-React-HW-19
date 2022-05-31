@@ -14,6 +14,7 @@ const styles = {
         fontSize: '1.2rem',
         color: 'white',
         padding: '0 20px',
+        marginBottom: '20px'
     },
     content: {
         padding: 20,
@@ -25,6 +26,7 @@ const styles = {
         borderRadius: '50% 50% 50%'
     },
     h3: {
+        margin: '10px',
         fontSize: '3rem',
         fontWeight: '300',
         lineHeight: '1.3'
