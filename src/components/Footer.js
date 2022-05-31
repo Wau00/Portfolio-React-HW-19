@@ -10,7 +10,12 @@ const styles = {
     content: {
         color: '#fff',
         textDecoration: 'none',
-        padding: '10px'
+        padding: '10px',
+        margin: '1em 0 0.5em 0',
+        fontWeight: 'normal',
+        fontfamily: "'Ultra', sans-serif",
+        lineHeight: '42px',
+        textShadow: '2px 2px 4px #000000',
     }
 };
 
