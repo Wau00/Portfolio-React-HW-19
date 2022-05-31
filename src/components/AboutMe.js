@@ -8,13 +8,15 @@ const styles = {
         background: '#282c34',
     },
     heading: {
-        background: '#6c757d',
-        minHeight: 50,
-        lineHeight: 3.5,
-        fontSize: '1.2rem',
-        color: 'white',
-        padding: '0 20px',
-        marginBottom: '20px'
+        background: '#fff',
+        margin: '1em 0 0.5em 0',
+        color: '#343434',
+        fontWeight: 'normal',
+        fontfamily: "'Ultra', sans-serif",
+        fontSize: '36px',
+        lineHeight: '42px',
+        textTransform: 'uppercase',
+        textShadow: '2px 2px 4px #000000',
     },
     content: {
         padding: 20,
@@ -23,7 +25,7 @@ const styles = {
     hero: {
         width: '30%',
         height: 'auto',
-        borderRadius: '50% 50% 50%'
+        borderRadius: '30%',
     },
     h3: {
         margin: '10px',
@@ -36,7 +38,7 @@ const styles = {
 function AboutMe() {
     return (
         <div style={styles.card}>
-            <div style={styles.heading}><h3>About Me</h3></div>
+            <div style={styles.heading}><h1>About Me</h1></div>
             <Card.Img style={styles.hero} variant="top" src='https://user-images.githubusercontent.com/99919050/171073578-2c7167f9-1324-4bb7-b191-2aea515e85ce.jpg' />
             <div style={styles.content}>
                 <h3 style={styles.h3}>I am a multi-discipline Full Stack Developer who enjoys challenges of all shapes and sizes.</h3>
