@@ -11,7 +11,7 @@ function NavbarHome() {
                     <Nav className="me-auto">
                         <Nav.Link href="#AboutMe">About Me</Nav.Link>
                         <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#Contact">Contact Me</Nav.Link>
+                        <Nav.Link href="#Contact">Contact</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="#Resume">CV</Nav.Link>
