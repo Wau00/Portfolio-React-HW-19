@@ -63,7 +63,7 @@ function Resume() {
                 <li style={styles.listItems}>+ MongoDb, Mongoose</li>
                 <li style={styles.listItems}>+ Rest</li>
             </ul>
-            <ul><h4 style={styles.resume}>Download My <a style={styles.resumeHref} href="#">Resume</a></h4></ul>
+            <ul><h4 style={styles.resume}>Download My <a style={styles.resumeHref} target="_blank" href='https://raw.githubusercontent.com/Wau00/My-New-Portofolio-/main/Assets/img/Resume.png'>Resume</a></h4></ul>
         </div>
     )
 }

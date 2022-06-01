@@ -24,11 +24,11 @@ function Footer() {
     return (
         <footer className="container mb-10">
             <ul style={styles.footer} className="list-unstyled d-flex mt-5 mb-4">
-                <li className="me-7"><a style={styles.content} href="https://github.com/Wau00">GitHub</a></li>
+                <li className="me-7"><a style={styles.content} target="_blank" href="https://github.com/Wau00">GitHub</a></li>
                 <li className="me-7"><a style={styles.content} href="tel:469-662-2739">Phone</a></li>
-                <li className="me-7"><a style={styles.content}
+                <li className="me-7"><a style={styles.content} target="_blank"
                     href="https://www.linkedin.com/in/walter-alonso-underwood-291524234/">LinkedIn</a></li>
-                <li className="me-7"><a style={styles.content}
+                <li className="me-7"><a style={styles.content} target="_blank"
                     href="https://www.instagram.com/underwooh/">Instagram</a></li>
             </ul>
         </footer>

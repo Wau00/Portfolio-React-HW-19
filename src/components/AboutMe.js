@@ -43,9 +43,9 @@ function AboutMe() {
             <div style={styles.content}>
                 <h3 style={styles.h3}>I am a multi-discipline Full Stack Developer who enjoys challenges of all shapes and sizes.</h3>
 
-                <p>I create webpages Back End — or server side — of the application as well as the Front End, or client side that stand out in today’s overstimulated world.
+                <h4>I create webpages Back End — or server side — of the application as well as the Front End, or client side that stand out in today’s overstimulated world.
 
-                    Ultimately creating webpages with MVC architecture to separate business logic and presentation details.</p>
+                    Ultimately creating webpages with MVC architecture to separate business logic and presentation details.</h4>
             </div>
         </div>
     );

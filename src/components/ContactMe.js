@@ -110,7 +110,7 @@ const ContactMe = () => {
                         <h2 style={styles.inputLabel}>Name</h2>
                         <Form.Control style={styles.textArea} type="text" value={name}
                             name="name"
-                            onChange={handleInputChange} placeholder="My Name is" />
+                            onChange={handleInputChange} placeholder="My Name is..." />
                     </Form.Group>
                 </Row>
                 <Row className="mb-3">
