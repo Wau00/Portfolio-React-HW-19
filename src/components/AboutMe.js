@@ -8,9 +8,9 @@ const styles = {
         background: '#282c34',
     },
     heading: {
-        background: '#fff',
+        background: '#6c757d',
         margin: '1em 0 0.5em 0',
-        color: '#343434',
+        color: '#fff',
         fontWeight: 'normal',
         fontfamily: "'Ultra', sans-serif",
         fontSize: '36px',

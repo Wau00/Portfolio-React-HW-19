@@ -3,9 +3,9 @@ import { Carousel, Container } from "react-bootstrap"
 
 const styles = {
     heading: {
-        background: '#fff',
+        background: '#6c757d',
         margin: '1em 0 0.5em 0',
-        color: '#343434',
+        color: '#fff',
         fontWeight: 'normal',
         fontfamily: "'Ultra', sans-serif",
         fontSize: '36px',
@@ -18,7 +18,9 @@ const styles = {
         color: '#fff',
         textDecoration: 'none',
         background: '#282c34',
+        borderRadius: '30%',
         margin: '1em 0 0.5em 0',
+        padding: '7px',
         fontWeight: 'normal',
         fontfamily: "'Ultra', sans-serif",
         textTransform: 'uppercase',
