@@ -48,7 +48,7 @@ function AboutMe() {
                     Ultimately creating webpages with MVC architecture to separate business logic and presentation details.</p>
             </div>
         </div>
-    )
+    );
 }
 
 export default AboutMe;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav, } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 const styles = {
     navTitle: {
@@ -40,16 +41,16 @@ function NavbarHome() {
 
         <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark">
             <Container>
-                <Navbar.Brand href="#AboutMe" style={styles.navTitle}>Walter Underwood</Navbar.Brand>
+                <Navbar.Brand href="/" style={styles.navTitle}>Walter Underwood</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#AboutMe" style={styles.navText}>About Me</Nav.Link>
-                        <Nav.Link href="#Portfolio" style={styles.navText}>Portfolio</Nav.Link>
-                        <Nav.Link href="#Contact" style={styles.navText}>Contact</Nav.Link>
+                        <Nav.Link href="/about" style={styles.navText}>About Me</Nav.Link>
+                        <Nav.Link href="/project" style={styles.navText}>Portfolio</Nav.Link>
+                        <Nav.Link href="/contact" style={styles.navText}>Contact</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#Resume" style={styles.navResume}>Resume</Nav.Link>
+                        <Nav.Link href="/resume" style={styles.navResume}>Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
