@@ -41,16 +41,16 @@ function NavbarHome() {
 
         <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark">
             <Container>
-                <Navbar.Brand href="/" style={styles.navTitle}>Walter Underwood</Navbar.Brand>
+                <Navbar.Brand href="/Portfolio-React-HW-19/" style={styles.navTitle}>Walter Underwood</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/about" style={styles.navText}>About Me</Nav.Link>
-                        <Nav.Link href="/project" style={styles.navText}>Portfolio</Nav.Link>
-                        <Nav.Link href="/contact" style={styles.navText}>Contact</Nav.Link>
+                        <Nav.Link href="/Portfolio-React-HW-19/about" style={styles.navText}>About Me</Nav.Link>
+                        <Nav.Link href="/Portfolio-React-HW-19/project" style={styles.navText}>Portfolio</Nav.Link>
+                        <Nav.Link href="/Portfolio-React-HW-19/contact" style={styles.navText}>Contact</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/resume" style={styles.navResume}>Resume</Nav.Link>
+                        <Nav.Link href="/Portfolio-React-HW-19/resume" style={styles.navResume}>Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
