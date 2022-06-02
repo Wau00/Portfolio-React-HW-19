@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 import Resume from './components/Resume';
+import { Switch } from 'react-router-dom';
 
 
 function App() {
@@ -14,11 +15,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route exact path="/Portfolio-React-HW-19/" component={AboutMe} />
-        <Route exact path="/Portfolio-React-HW-19/about" component={AboutMe} />
-        <Route exact path="/Portfolio-React-HW-19/project" component={Portfolio} />
-        <Route path="/Portfolio-React-HW-19/contact" component={ContactMe} />
-        <Route path="/Portfolio-React-HW-19/resume" component={Resume} />
+        <Switch>
+          <Route exact path="/Portfolio-React-HW-19/" ><AboutMe /></Route>
+          <Route exact path="/Portfolio-React-HW-19/about" ><AboutMe /></Route>
+          <Route exact path="/Portfolio-React-HW-19/project"><Portfolio /></Route>
+          <Route path="/Portfolio-React-HW-19/contact" ><ContactMe /></Route>
+          <Route path="/Portfolio-React-HW-19/resume" ><Resume /></Route>
+        </Switch>
         <Footer />
       </div>
     </Router>
